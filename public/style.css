@@ -1,0 +1,114 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff1d6;
+	font-family: 'Fredoka One', cursive;
+}
+
+#root {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.title {
+	color: #1f62dfff;
+	font-size: 45px;
+	text-align: center;
+	position: relative;
+	width: 500px;
+	text-align: left;
+}
+
+.title::after {
+	content: '';
+	background-image: url("icon.png");
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	left: 310px;
+    top: -9px;
+}
+
+.text {
+	color: #0397DF;
+	width: 500px;
+	margin: 0px auto;
+	margin-bottom: 40px;
+}
+
+.offer {
+	color: #0397DF;
+	font-size: 25px;
+}
+
+.form {
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.input {
+	width: 250px;
+	height: 50px;
+	border: 3px solid #2063d4;
+	border-radius: 30px;
+	font-family: 'Fredoka One', cursive;
+	color: #2063d4;
+	padding-left: 25px;
+	font-size: 20px;
+}
+
+
+.button {
+	background-color: #0397DF;
+	color: #fff1d6;
+	font-family: 'Fredoka One', cursive;
+	border: none;
+	border-radius: 30px;
+	width: 150px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 500px;
+}
+
+.lineThrough {
+	text-decoration: line-through;
+}
+
+.item {
+	color: #0397DF;
+	font-size: 25px;
+	padding: 20px 0;
+	display: flex;
+  	align-items: center;
+  	padding: 1rem;
+  	margin-bottom: 1rem;
+  	border-radius: 4px;
+  	border: 3px solid #0397DF;
+	margin-bottom: 20px;
+}
+
+.item span {
+	margin: 0 115px 0 18px;
+	display: inline-block;
+  	padding: .5rem;
+  	width: 250px;
+  	border-radius: 4px;
+  	border: 2px solid transparent;
+}
+
+.delete {
+	border: none;
+	width: 32px;
+	height: 32px;
+	background: url("delete.png") no-repeat center center;
+	cursor: pointer;
+}
